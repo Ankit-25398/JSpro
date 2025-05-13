@@ -76,6 +76,6 @@ function openDiv() {
     ${userName}
     ,&nbsp;how's your day?<br>(Just right-click on your AVATAR to save it) </div><br> <img src="img.png" height="250px" width="250px" id="imgChange"></center>`;
     if (userName != "") {
-        document.getElementById("imgChange").src = `https://avatars.dicebear.com/api/croodles/${userName}.svg`;
+        document.getElementById("imgChange").src = `https://api.dicebear.com/9.x/croodles/${userName}.svg`;
     }
 }
